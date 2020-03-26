@@ -1,2 +1,2 @@
-# akul16-ku.edu.tr
+# Paractices on Well-Known Data Sets
 Data Science Exercises
