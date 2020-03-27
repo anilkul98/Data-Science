@@ -24,7 +24,6 @@ unluckies = ["Mr", "Don", "Rev", "Dr", "Jonkheer"]
 
 def preprocessData(train,test):
     Y_train = train['Survived']
-
     train['Train'] = train.apply(lambda row: 1, axis=1)
     test['Train'] = test.apply(lambda row: 0, axis=1)
     data = pd.concat([train, test], ignore_index=True, axis=0)
@@ -42,15 +41,11 @@ def preprocessData(train,test):
     dropColumn(data, 'PassengerId')
     changeNanWithMean(data['Age'])
     changeNanWithMean(data['Fare'])
-    print("plot")
-    #sns.countplot(x='Pclass', hue='Survived', data=data[:891])
-
     data.drop(columns='Survived', axis=1, inplace=True)
     X_train = getTrainData(data)
     X_test = getTestData(data)
     dropColumn(train,'Train')
     dropColumn(test, 'Train')
-    #data['Ticket'] = data.apply(lambda row: handleTicket(str(row['Ticket'])), axis=1)
     return X_train,Y_train, X_test
 
 def handleTicket(str):
@@ -90,11 +85,14 @@ def getTitle(str):
 
 def applyModels(X_train, Y_train, X_test, Y_test):
     for model in models:
+        result = ""
         model.fit(X_train, Y_train)
         y_pred = model.predict(X_test)
-        print(model.__str__().split("(")[0])
-        print("--------------------")
-        print("Confusion Matrix:")
-        print(confusion_matrix(Y_test, y_pred))
-        print("AUROC: {}".format(roc_auc_score(Y_test, y_pred)))
-        print("")
+        result += model.__str__().split("(")[0] + "\n"
+        result += "----------------------------" + "\n"
+        result += "Confusion Matrix:" + "\n"
+        result += "{}".format(confusion_matrix(Y_test, y_pred)) + "\n"
+        result += "AUROC: {}".format(roc_auc_score(Y_test, y_pred)) + "\n"
+        result += "##################################\n"
+        file = open("output.txt", "a+")
+        file.write(result)

@@ -39,6 +39,7 @@
       <workItem from="1585139327073" duration="375000" />
       <workItem from="1585145233848" duration="13356000" />
       <workItem from="1585225689364" duration="3462000" />
+      <workItem from="1585312494511" duration="477000" />
     </task>
     <servers />
   </component>
@@ -46,6 +47,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585313033936">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585313033936" />
     <state x="772" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1585226375459">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -54,9 +59,9 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585152707833" />
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585225689572">
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585312498877">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585225689572" />
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585312498877" />
   </component>
 </project>
