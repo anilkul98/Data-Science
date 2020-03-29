@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3117a3b-8d58-4492-918c-71c8bbdd71f9" name="Default Changelist" comment="" />
+    <list default="true" id="b3117a3b-8d58-4492-918c-71c8bbdd71f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Covid19/full_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid19/full_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid19/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid19/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid19/preprocessHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid19/preprocessHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid19/processedData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid19/processedData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid19/worldWide.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZcXOiVcrhPkpowlHyiOBxwRDlX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TR_Data" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="SvnConfiguration">
@@ -40,6 +51,9 @@
       <workItem from="1585145233848" duration="13356000" />
       <workItem from="1585225689364" duration="3462000" />
       <workItem from="1585312494511" duration="477000" />
+      <workItem from="1585313229627" duration="11000" />
+      <workItem from="1585316348164" duration="75000" />
+      <workItem from="1585424117366" duration="763000" />
     </task>
     <servers />
   </component>
@@ -51,17 +65,17 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585313033936" />
-    <state x="772" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1585226375459">
+    <state x="772" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1585316421118">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="772" y="300" width="424" height="520" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585226375459" />
+    <state x="772" y="300" width="424" height="520" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585316421118" />
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585152707833">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585152707833" />
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585312498877">
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585316349462">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585312498877" />
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585316349462" />
   </component>
 </project>
